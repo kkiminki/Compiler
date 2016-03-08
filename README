@@ -4,6 +4,13 @@
 //README
 //Assignment 4 README file
 
+//This project is a compiler for a programing language called "oc".
+//The project currently has a working scanner and parser and can assemble
+//asbstract synatax trees. This project was built as an assignment
+//at UCSC and the framework code and structure for the language
+//"oc" was provided by Wesley Mackey.
+
+
 auxlib.h
 auxlib.cpp
 //Auxiliary library header and implementation files
