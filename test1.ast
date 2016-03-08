@@ -1,0 +1,54 @@
+TOK_ROOT "" 0.0.000
+|	TOK_STRUCT "struct" 3.1.000
+|	|	TOK_TYPEID "hello" 3.1.007 struct
+|	|	TOK_CHAR "char" 3.4.003
+|	|	|	TOK_FIELD "u" 3.4.008
+|	|	TOK_STRING "string" 3.3.003
+|	|	|	TOK_FIELD "f" 3.3.010 string lval
+|	|	TOK_INT "int" 3.2.003
+|	|	|	TOK_FIELD "a" 3.2.007 int lval
+|	TOK_FUNCTION "(" 3.7.008
+|	|	TOK_INT "int" 3.7.009
+|	|	|	TOK_INITDECL "n" 3.7.013 int lval param
+|	|	TOK_INT "int" 3.7.000
+|	|	|	TOK_INITDECL "fac" 3.7.004 int function
+|	|	TOK_BLOCK "{" 3.7.016
+|	|	|	TOK_RETURN "return" 3.13.003
+|	|	|	|	TOK_IDENT "f" 3.13.010 int lval variable
+|	|	|	TOK_WHILE "while" 3.9.003
+|	|	|	|	TOK_GT ">" 3.9.011
+|	|	|	|	|	TOK_IDENT "n" 3.9.009 int lval variable
+|	|	|	|	|	TOK_INTCON "1" 3.9.013 int const
+|	|	|	|	TOK_BLOCK "{" 3.9.016
+|	|	|	|	|	'=' "=" 3.11.008
+|	|	|	|	|	|	TOK_IDENT "n" 3.11.006 int lval variable
+|	|	|	|	|	|	'-' "-" 3.11.012
+|	|	|	|	|	|	|	TOK_IDENT "n" 3.11.010 int lval variable
+|	|	|	|	|	|	|	TOK_INTCON "1" 3.11.014 int const
+|	|	|	|	|	'=' "=" 3.10.008
+|	|	|	|	|	|	TOK_IDENT "f" 3.10.006 int lval variable
+|	|	|	|	|	|	'*' "*" 3.10.012
+|	|	|	|	|	|	|	TOK_IDENT "f" 3.10.010 int lval variable
+|	|	|	|	|	|	|	TOK_IDENT "n" 3.10.014 int lval variable
+|	|	|	'=' "=" 3.8.009
+|	|	|	|	TOK_INT "int" 3.8.003
+|	|	|	|	|	TOK_INITDECL "f" 3.8.007 int lval
+|	|	|	|	TOK_INTCON "1" 3.8.011 int const
+|	TOK_FUNCTION "(" 3.16.009
+|	|	TOK_INT "int" 3.16.010
+|	|	|	TOK_INITDECL "a" 3.16.014 int lval param
+|	|	TOK_VOID "void" 3.16.000
+|	|	|	TOK_INITDECL "puti" 3.16.005 void function
+|	|	TOK_BLOCK "{" 3.16.016
+|	|	|	TOK_WHILE "while" 3.17.002
+|	|	|	|	TOK_LE "<=" 3.17.010
+|	|	|	|	|	TOK_IDENT "n" 3.17.008 int lval variable
+|	|	|	|	|	TOK_INTCON "5" 3.17.013 int const
+|	|	|	|	TOK_BLOCK "{" 3.17.015
+|	|	|	|	|	TOK_CALL "(" 3.18.009
+|	|	|	|	|	|	TOK_CALL "(" 3.18.014
+|	|	|	|	|	|	|	'+' "+" 3.18.016
+|	|	|	|	|	|	|	|	TOK_IDENT "n" 3.18.015 int lval variable
+|	|	|	|	|	|	|	|	TOK_INTCON "2" 3.18.017 int const
+|	|	|	|	|	|	|	TOK_IDENT "fac" 3.18.010 int function lval
+|	|	|	|	|	|	TOK_IDENT "puti" 3.18.005 void function lval

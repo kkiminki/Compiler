@@ -1,0 +1,37 @@
+//Kyler Kiminki
+//kkiminki
+//CMPS104a
+//README
+//Assignment 4 README file
+
+auxlib.h
+auxlib.cpp
+//Auxiliary library header and implementation files
+
+stringset.h
+stringset.cpp
+//Stringset ADT header and implementation files
+
+main.cpp
+//Main file that scans the output of cpp and saves the output in a ".str" file
+
+Makefile
+//Makefile for the project
+
+lyutils.h
+lyutils.cpp
+//Library with helper functions for the scanner
+
+lexer.l
+//File used to build the flex scanner. Rules defined here
+
+parser.y
+//Bison parser file
+
+astree.h
+astree.cpp
+//ADT used to build the abstract syntax trees
+
+symtable.h
+symtable.cpp
+//ADT used to build the symbol tables

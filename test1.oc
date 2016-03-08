@@ -1,0 +1,21 @@
+struct hello{
+   int a;
+   string f;
+   char u;
+}
+
+int fac (int n) {
+   int f = 1;
+   while(n > 1) {
+      f = f * n;
+      n = n - 1;
+   }
+   return f;
+}
+
+void puti(int a){
+  while(n <= 5){
+     puti(fac (n+2));
+   }
+}
+   

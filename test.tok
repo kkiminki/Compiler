@@ -1,0 +1,5 @@
+# 1 "test.oc"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "test.oc"
+   3 	 1.0 	261 	TOK_INT 	( int )   3 	 1.4 	279 	TOK_IDENT 	( main )   3 	 1.8 	40 	'(' 	( ( )   3 	 1.9 	258 	TOK_VOID 	( void )   3 	 1.14 	279 	TOK_IDENT 	( car )   3 	 1.17 	41 	')' 	( ) )   3 	 1.19 	123 	'{' 	( { )   3 	 2.2 	261 	TOK_INT 	( int )   3 	 2.6 	279 	TOK_IDENT 	( a )   3 	 2.8 	61 	'=' 	( = )   3 	 2.10 	280 	TOK_INTCON 	( 2 )   3 	 2.11 	59 	';' 	( ; )   3 	 3.2 	262 	TOK_STRING 	( string )   3 	 3.9 	279 	TOK_IDENT 	( b )   3 	 3.11 	61 	'=' 	( = )   3 	 3.13 	279 	TOK_IDENT 	( cat )   3 	 3.16 	59 	';' 	( ; )   3 	 4.0 	125 	'}' 	( } )

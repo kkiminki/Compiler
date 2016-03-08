@@ -1,0 +1,15 @@
+TOK_ROOT "" 0.0.000
+|	TOK_FUNCTION "(" 3.1.008
+|	|	TOK_VOID "void" 3.1.009
+|	|	|	TOK_INITDECL "car" 3.1.014
+|	|	TOK_INT "int" 3.1.000
+|	|	|	TOK_INITDECL "main" 3.1.004
+|	|	TOK_BLOCK "{" 3.1.019
+|	|	|	'=' "=" 3.3.011
+|	|	|	|	TOK_STRING "string" 3.3.002
+|	|	|	|	|	TOK_INITDECL "b" 3.3.009
+|	|	|	|	TOK_IDENT "cat" 3.3.013
+|	|	|	'=' "=" 3.2.008
+|	|	|	|	TOK_INT "int" 3.2.002
+|	|	|	|	|	TOK_INITDECL "a" 3.2.006
+|	|	|	|	TOK_INTCON "2" 3.2.010
